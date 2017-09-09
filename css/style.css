@@ -1,3 +1,53 @@
 body {
+    background-color: navy;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: #000000;
+}
+
+#Main-container {
     background-color: #99ccff;
+    padding: 30px;
+}
+
+#Questions-container {
+    background-color: darksalmon;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#Answers-container {
+    background-color: deeppink;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table {
+    width:100%;
+}
+
+#QA {
+    background-color: chartreuse;
+}
+
+#QB {
+    background-color: #ff2728;
+}
+
+#QC {
+    background-color: #faff1f;
+}
+
+#QD {
+    background-color: #0a00ff;
 }
