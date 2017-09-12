@@ -1,6 +1,22 @@
-body {
-    background-color: navy;
+
+/*pagina start*/
+
+body {background-color: #12a7dc;
 }
+
+#start {width: 200px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px ;
+    padding: 10px;
+    align-content: center;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+/*pagina 2*/
+
 
 p {
     text-align: center;
@@ -51,3 +67,4 @@ table {
 #QD {
     background-color: #0a00ff;
 }
+
