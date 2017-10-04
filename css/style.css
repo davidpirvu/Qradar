@@ -1,5 +1,5 @@
 
-/*pagina start*/
+/*pagina index.html*/
 
 body {background-color: #12a7dc;
 }
@@ -15,7 +15,7 @@ body {background-color: #12a7dc;
     margin-top: 15%;
 }
 
-/*pagina 2*/
+/*pagina Quiz.html*/
 
 
 p {
@@ -32,16 +32,8 @@ a {
     padding: 30px;
 }
 
-#Questions-container {
+#Quiz-container {
     background-color: darksalmon;
-    margin: 10px;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-}
-
-#Answers-container {
-    background-color: deeppink;
     margin: 10px;
     padding: 10px;
     border-style: solid;
@@ -77,3 +69,8 @@ table {
     background-color: #0a00ff;
 }
 
+.question {
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 4px;
+}
