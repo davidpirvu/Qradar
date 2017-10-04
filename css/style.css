@@ -1,7 +1,24 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
 
-/*pagina index.html*/
+@keyframes color-animation {
+    0% {
+        background: #1d68ad;
+    }
+    50% {
+        background: #6a1b9a;
+    }
+    100% {
+        background: #589a4d;
+    }
+}
 
-body {background-color: #12a7dc;
+.autoColor {
+    width: 100%;
+    height: 100%;
+    animation: color-animation 7s infinite linear alternate;
 }
 
 #start {width: 200px;
@@ -9,14 +26,10 @@ body {background-color: #12a7dc;
     padding: 10px;
     font-size: 20px;
     border: 2px ;
-    padding: 10px;
     align-content: center;
     margin-left: 40%;
     margin-top: 15%;
 }
-
-/*pagina Quiz.html*/
-
 
 p {
     text-align: center;
