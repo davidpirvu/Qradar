@@ -12,7 +12,7 @@ function getQuestionHTML(question) {
     return row;
 }
 
-var divContent = '';                                    // creez o variabila goala in care voi pune cotinut
+var divContent = '';                                    // creez o variabila goala in care voi pune continut
 
 function createDiv(question) {
     divContent += getQuestionHTML(question);            // adaug in divContent continutul rezultat din functia getQuestionHTML. lipeste unul dupa unu
